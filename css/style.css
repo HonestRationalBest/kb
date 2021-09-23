@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.journey {
+  margin-top: 20px;
+}
+
+.journey__progressbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 10px;
+  width: 87%;
+  border: 0;
+  background-color: #cccccc;
+}
+
+.dot {
+  cursor: pointer;
+  margin-top: -16px;
+  width: 17px;
+  height: 17px;
+  background-color: #a1a1a1;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.dot.active{
+  background: #008ACE;
+}
+
+.journey__list {
+  margin-top: -16px;
+}
+
+.journey__list ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.journey_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.journey_item p{
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.check__item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.check__item h3 {
+  margin: 0 0 16px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.check__item p {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 29px;
+}
+
+.check__item_button {
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  border: 2px solid #263852;
+  padding: 19px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.check__item_doneButton {
+  display: block;
+  margin-right: 15px;
+  cursor: pointer;
+}

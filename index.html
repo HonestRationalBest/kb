@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Poland relocation process</title>
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <section class="journey">
+          <hr class="journey__progressbar" />
+          <div class="journey__list">
+            <ul>
+              <li class="journey_item">
+                <div class="dot active" id="10"></div>
+                <p>Before relocation</p>
+              </li>
+              <li class="journey_item">
+                <div class="dot" id="20"></div>
+                <p>Upon arrival before midnight</p>
+              </li>
+              <li class="journey_item">
+                <div class="dot" id="30"></div>
+                <p>Before start date</p>
+              </li>
+              <li class="journey_item">
+                <div class="dot" id="40"></div>
+                <p>On start date</p>
+              </li>
+              <li class="journey_item">
+                <div class="dot" id="50"></div>
+                <p>3 business days before EOM</p>
+              </li>
+              <li class="journey_item">
+                <div class="dot" id="60"></div>
+                <p>1 months after start date</p>
+              </li>
+              <li class="journey_item">
+                <div class="dot" id="70"></div>
+                <p>Further steps</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="checklist">
+          <h2>
+            Completed: <span id="currentSectionItemsElem">0</span> of
+            <span id="currentAllSectionItems"></span>
+          </h2>
+          <div class="checklist__items" id="1"></div>
+          <div class="checklist__items" id="2"></div>
+          <div class="checklist__items" id="3"></div>
+          <div class="checklist__items" id="4"></div>
+          <div class="checklist__items" id="5"></div>
+          <div class="checklist__items" id="6"></div>
+          <div class="checklist__items" id="7"></div>
+        </section>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
