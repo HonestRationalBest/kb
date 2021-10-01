@@ -86,9 +86,7 @@ const currentChecklistItems = JSON.parse(
   {
     id: "614c696d26a410f70e646b8a",
     title: "Start preliminary search of long-term accommodation",
-    text: `Describe your expectations to long-term apartment in e-mail and contact the recommended real estate agencies or start contacting owners directly using Facebook Marketplace,
-
-    Long-term: https://www.otodom.pl/ https://www.gumtree.pl/ https://t.me/rentapartaments_krk (gumtree's thread in Telegram for Krakow) https://www.olx.pl/nieruchomosci/mieszkania/wynajem/ Gdansk and whole trojmiasto: https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/`,
+    text: `Describe your expectations to long-term apartment in e-mail and contact the recommended real estate agencies or start contacting owners directly using Facebook Marketplace, Long-term: <a href="https://www.otodom.pl/">https://www.otodom.pl/</a> <a href="https://www.gumtree.pl/">https://www.gumtree.pl/</a> <a href="https://t.me/rentapartaments_krk">https://t.me/rentapartaments_krk</a> (gumtree's thread in Telegram for Krakow) <a href="https://www.olx.pl/nieruchomosci/mieszkania/wynajem/">https://www.olx.pl/nieruchomosci/mieszkania/wynajem/</a> Gdansk and whole trojmiasto: <a href="https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/">https://ogloszenia.trojmiasto.pl/nieruchomosci-mam-do-wynajecia/</a>`,
     isActive: false,
     sectionId: 1,
   },
@@ -117,15 +115,15 @@ const currentChecklistItems = JSON.parse(
     
     Often there are paid offers just for walking dog. Examples:
     
-    In Katowice popular is:  https://wyprowadzanie-psow.pl/oferta/wyprowadzanie-psow-katowice
+    In Katowice popular is: <a href='https://wyprowadzanie-psow.pl/oferta/wyprowadzanie-psow-katowice'>https://wyprowadzanie-psow.pl/oferta/wyprowadzanie-psow-katowice<a/>
     
-    Krakow:  https://petsitterkrakow.pl/en/
+    Krakow:  <a href="https://petsitterkrakow.pl/en/">https://petsitterkrakow.pl/en/</a>
     
-    Gdansk:  https://dog-walk.pl/
+    Gdansk:  <a href="https://dog-walk.pl/">https://dog-walk.pl/</a>
     
-    Warszawa, Krakow, Wroclaw, Gdansk  https://zoopiekuj.pl/
+    Warszawa, Krakow, Wroclaw, Gdansk  <a href="https://zoopiekuj.pl/">https://zoopiekuj.pl/</a>
     
-    All cities:  https://www.opiekazwierzat.pl/
+    All cities:  <a href="https://www.opiekazwierzat.pl/">https://www.opiekazwierzat.pl/</a>
     
     Or choose any other by your choice (“Wyprowadzenie psa”).
     
@@ -140,7 +138,7 @@ const currentChecklistItems = JSON.parse(
     title: "Register e-sim card (if your device supports it)",
     text: `Instruction:
 
-    Use VPN like https://www.tunnelbear.com (other secure VPN can be used: Cisco AnyConnect, NordVPN, OpenVPN) (have 1GB free/month for free account) on your Android / iOS device and select Poland as destination Install Orange Flex app https://flex.orange.pl/?ct=mgm&pt=orange&mt=LIZAVETA6LKG
+    Use VPN like <a href="https://www.tunnelbear.com">https://www.tunnelbear.com</a> (other secure VPN can be used: Cisco AnyConnect, NordVPN, OpenVPN) (have 1GB free/month for free account) on your Android / iOS device and select Poland as destination Install Orange Flex app <a href="https://flex.orange.pl/?ct=mgm&pt=orange&mt=LIZAVETA6LKG">https://flex.orange.pl/?ct=mgm&pt=orange&mt=LIZAVETA6LKG</a>
     
     Create New Account
     
@@ -244,14 +242,14 @@ const currentChecklistItems = JSON.parse(
   },
   {
     id: "614c696df522660992fdc62c",
-    title: "Provide your phone number and temporary address in Poland to hr_pl@epam.com",
+    title: `Provide your phone number and temporary address in Poland to <a href="mailto:hr_pl@epam.com">hr_pl@epam.com</a>`,
     text: `Onboarding documents need to be delivered to your address in Poland approx. one week before onboarding day Also, courier with the onboarding documents will contact you to arrange delivery`,
     isActive: false,
     sectionId: 3,
   },
   {
     id: "614c696dcc5bcea638473e71",
-    title: "Return one copy of signed onboarding documents to HR by a courier hr_pl@epam.com",
+    title:`Return one copy of signed onboarding documents to HR by a courier <a href="mailto:hr_pl@epam.com">hr_pl@epam.com</a>`,
     text: `Without signed and returned papers you will not get the IT equipment and be considered as an EPAM Poland employee
 
     The list: Employment contract Additional information to the contract
@@ -309,7 +307,7 @@ const currentChecklistItems = JSON.parse(
   },
   {
     id: "614c696d8c9de4e8fa7ca7ab",
-    title: "open your bank account in PLN and provide the account details to hr_pl@epam.com",
+    title: `Open your bank account in PLN and provide the account details to <a href="mailto:hr_pl@epam.com">hr_pl@epam.com</a>`,
     text: `Opening account takes minutes, but the card may be delivered in 2-3 weeks. If you don't know the address where you will be staying in 2-3 weeks - you can specify Epam PL office reception in your city.
 
     Bank Santander Polska - needs just passport and UoP, opening an account takes like 10-15 mins
@@ -322,7 +320,7 @@ const currentChecklistItems = JSON.parse(
   },
   {
     id: "614c696deae052eb7443c484",
-    title: "Finish assignments on: https://onboarding.epam.com https://upsa.epam.com/ and request English assessment ",
+    title: `Finish assignments on: <a href="https://onboarding.epam.com">https://onboarding.epam.com</a> <a href="https://upsa.epam.com/">https://upsa.epam.com/</a> and request English assessment `,
     text: ``,
     isActive: false,
     sectionId:6,
@@ -361,7 +359,7 @@ const currentChecklistItems = JSON.parse(
   },
   {
     id: "614c696d318d9fbf52c9dc01",
-    title: "Find your tax office: https://bazy.hoga.pl/wyszukiwarka-urzedow-skarbowych/ ",
+    title: `Find your tax office: <a href="https://bazy.hoga.pl/wyszukiwarka-urzedow-skarbowych/">https://bazy.hoga.pl/wyszukiwarka-urzedow-skarbowych/</a>`,
     text: ``,
     isActive: false,
     sectionId: 6,
@@ -451,11 +449,9 @@ const generateChecklistItem = (item, sectionId) => {
     currentSectionItemsCountElem.innerHTML = currentSectionActiveItemsCount;
     currentSectionElem.innerHTML += `
     <div class="check__item" id=${item.id}>
-      <img
-        src="../img/doneButton.svg"
-        alt="doneIcon"
-        class="check__item_doneButton"
-        />
+    <div class="check__item_doneButton">
+    <img alt="doneIcon" src="https://res.cloudinary.com/ds8hydjea/image/upload/v1632409397/kb/doneButton_ybxyhd.svg" class="check__item_doneButton"/>
+    </div>
       <div class="check__text">
         <h3>${item.title}</h3>
           <p>${item.text}</p>
@@ -516,7 +512,6 @@ const setActiveSection = (event) => {
   addEventListenerAllItems();
 
   currentSectionActiveItemsCount = 0;
-  currentSectionItemsCountElem.innerHTML = currentSectionActiveItemsCount;
   setCurrentActiveItems(currentSectionId);
 };
 
@@ -560,11 +555,7 @@ const setIsActive = (event) => {
     );
     setCurrentDoneElems(true);
     event.target.parentNode.innerHTML = `
-    <img
-      src="../img/doneButton.svg"
-      alt="doneIcon"
-      class="check__item_doneButton"
-      />
+    <img alt="doneIcon" src="https://res.cloudinary.com/ds8hydjea/image/upload/v1632409397/kb/doneButton_ybxyhd.svg" class="check__item_doneButton"/>
     <div class="check__text">
       <h3>${item.title}</h3>
       <p>${item.text}</p>
